@@ -5,7 +5,8 @@
 		<title></title>
 	</head>
 	<link rel="stylesheet" href="../dist/css/index.min.css" />
-	<link rel="stylesheet" href="../dist/icon/iconfont.css">
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="../dist/js/main.min.js"></script>
 	<body>
 		<!--topStart-->
 		<div class="top">
@@ -25,16 +26,104 @@
 				<div class="zoom"></div>
 			</a>
 			<ul class="top_right">
-				<li><span>帮助</span></li>
+				<li><span>帮助</span>
+					<p>
+						需要帮助
+					</p>
+				</li>
 				<li><span>门店</span></li>
 				<li><span>账户</span></li>
 				<li><span>购物车</span></li>
+				<!-- 移入事件 -->
 			</ul>
+			</div>
+			
+			<!-- 二级导航 -->
+			<div class="two_nav">
+				<!-- 导航左半部 -->
+				<ul class="nav_left">
+					<li><a>所有运动</a></li>
+					<li><a href="#">运动服饰</a></li>
+					<li><a href="#">运动鞋袜</a></li>
+					<li><a href="#">运动装备</a></li>
+					<li class="different"><a href="#">特惠专区</a></li>
+					<li class="different1"><a href="#">保养维修</a></li>
+					<li class="different1"><a href="#">个性定制</a></li>
+				</ul>
+				<!-- 导航右半部分 -->
+				<ul class="nav_right">
+					<!-- 1 -->
+					<li>
+						<img src="img/png(44).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(49).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(45).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<!-- 2 -->
+					<li>
+						<img src="img/png(46).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(39).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(43).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<!-- 3 -->
+					<li>
+						<img src="img/png(42).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(41).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(40).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<!-- 4 -->
+					<li>
+						<img src="img/png(36).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(37).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(38).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<!-- 5 -->
+					<li>
+						<img src="img/png(19).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(20).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+					<li>
+						<img src="img/png(21).png" />
+						<p><a href="#">健身</a></p>
+					</li>
+				</ul>
 			</div>
 			<!--topEnd-->
 			
 			<!--bannerStart-->
 			<div class="banner">
+				<img src="../dist/img/pic1 (25).jpg" />
 				<img src="../dist/img/pic1 (25).jpg" />
 			</div>
 			<!--bannerEnd-->
@@ -345,8 +434,76 @@
 		<!-- navStart -->
 		<nav>
 			<div class="nav_cen">
-				<div class="nav_one"></div>
+			<div class="nav_one">
+				<div class="iconfont icon-navicon-dxgl"></div>
+				<span>用户评价</span>
+			</div>
+			<div class="nav_one">
+				<div class="iconfont icon-diannao"></div>
+				<span>门店自取</span>
+			</div>
+			<div class="nav_one">
+				<div class="iconfont icon-huabanfuben"></div>
+				<span>会员福利</span>
+			</div>
+			<div class="nav_one">
+				<div class="iconfont icon-tool"></div>
+				<span>工作室</span>
+			</div>
+			<div class="nav_one">
+				<div class="iconfont icon-weimingmingwenjianjia_xunhuan"></div>
+				<span>退换货保障</span>
+			</div>
 			</div>
 		</nav>
+		<!-- bottomStart -->
+		<footer>
+			<ul>
+				<li>
+					<p>关于迪卡侬</p>
+					<b>公司介绍</b>
+					<b>品牌介绍</b>
+					<b>创新产品</b>
+					<b>店铺查询</b>
+					<b>工作机会</b>
+					<b>用户评价</b>
+				</li>
+				<li>
+					<p>售后服务</p>
+					<b>退换货政策</b>
+					<b>配送方式</b>
+					<b>商城服务</b>
+					<b>工作室</b>
+					<b>礼品卡</b>
+					<b>门店自取</b>
+					<b>会员权益</b>
+					<b>团购政策</b>
+				</li>
+				<li>
+					<p>帮助</p>
+					<b>尺码对照</b>
+					<b>运动指南</b>
+					<b>帮助中心</b>
+					<b>联系我们</b>
+					<b>客服电话：</b>
+				</li>
+				<li>
+					<p>合法</p>
+					<b>营业执照</b>
+					<b>隐私政策</b>
+					<b>会员须知</b>
+					<b>官网购物须知</b>
+				</li>
+					<img src="../dist/img/png(4).png" />
+					<img src="../dist/img/png(5).png" />
+			</ul>
+		</footer>
+		<div class="end">
+			<div class="end_cen">
+			<p>Copyright 2003-2019, 迪卡侬集团及其附属公司。<span>沪ICP备16000315号-7</span></p>
+			<img src="../dist/img/png(3).png">
+			<img src="../dist/img/footer.jpg">
+			</div>
+		</div>
 	</body>
 </html>

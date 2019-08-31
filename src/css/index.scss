@@ -1,9 +1,13 @@
-.top {
 
+.top {
+	background: #fff;
 	height: 54px;
-	-background: pink;
 	overflow: hidden;
 	display: block;
+	position: sticky;
+	z-index: 200;
+	top: 0;
+	box-shadow: 0px 5px 5px #999;
 }
 
 .blue {
@@ -12,7 +16,6 @@
 	background: #0082c3;
 	display: block;
 	float: left;
-	position: absolute;
 	z-index: 12;
 }
 .top .top_one{
@@ -44,7 +47,6 @@
 	position: absolute;
 	left: 23px;
 	top: 34px;
-	
 }
 .top .classify {
 	width:40px;
@@ -59,7 +61,6 @@
 	transform:skewX(8deg);
 	position: absolute;
 	left: -4px;
-	-z-index: -13;
 }
 .top .classify:hover{
 	background: #0082c3;
@@ -90,12 +91,13 @@
 	height: 30px;	
 }
 .top .top_seek{
-	width: 737px;
+	width: 727px;
 	height: 35px;
-	color:#e0e2e7 ;
+	color:#e0e2e7;
 	background: #edeff1;
 	transform: skewX(10deg);
 	margin-left: -10px;
+	padding-left: 10px;
 }
 .top .top_seek_top{
 	width:730px ;
@@ -131,6 +133,7 @@
 .top .top_right{
 	float: right;
 	margin-right: -5px;
+	position: relative;
 }
 .top .top_right li{
 	float: left;
@@ -141,11 +144,19 @@
 	transform: skewX(10deg);
 	line-height: 54px;
 	text-align: center;
-	position: relative;
+	p{
+		width: 380px;
+		height: 262px;
+		background: springgreen;
+		position: absolute;
+		top: 54px; 
+		z-index: 99;
+	}
 }
+
 .top .top_right li span{
 	transform: skewX(-10deg);
-	display: block;
+	display: block;	
 	position: absolute;
 	left: 22px;
 	width: 40px;
@@ -158,6 +169,12 @@
 	background: #efeef3;
 	transition-duration:0.4s;
 }
+/* .top .top_right li:hover p{
+	display:block;
+	position: absolute;
+	top: 54px;
+	z-index: 99;
+} */
 .top .top_right li:nth-child(4){
 	width: 100px;
 	height: 54px;
@@ -167,15 +184,94 @@
 	background: #fdd935;
 	transition-duration:0.4s;
 }
+			/*  二级导航  */
+.two_nav{
+	display: none;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: 54px;
+	left: 0;
+	z-index: 33333;
+	/* left */
+	.nav_left{
+		width: 130px;
+		height: 600px;
+		background: #f9f9f9;
+		border-right: 1px solid #e7e7e7;
+		float:left;
+		li{
+			width: 130px;
+			height: 40px;
+			background: #fff;
+			padding-top:20px;
+			a{
+				width: 96px;
+				height: 22px;
+				display: block;
+				font-size: 17px;
+				color: #0082c3;
+				font-weight: 700;
+				padding-left: 5px;
+				border-left: 5px solid #0082C3;
+			}
+		}
+		.different{
+			border-top: 1px solid #ddd;
+			background: #f9f9f9;
+			a{
+				color: #fc4b53;
+				border: none;
+				font-weight: 100;
+			}
+			}
+			.different1{
+				background: #f9f9f9;
+					a{
+						border: none;
+						font-weight: 100;
+							color: #666;
+							font-weight: 100;
+							border: none;
+					}
+			}
+	}
+	/* right */
+.nav_right{
+	width: 453px;
+	height: 600px;
+	background: #fff;
+	float: right;
+	margin-right: 16px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	li{
+		width: 150px;
+		height: 120px;
+		img{
+			width: 90px;
+			height: 90px;
+			margin-left: 30px;
+		}
+		p{
+			width: 150px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+		}
+	}
+}
+}
 			/*bannerStart*/
 .banner{
     width: 100%;
     height: 590px;
-
 }
 .banner img{
     width: 100%;
-    position: absolute;
+	position: absolute;
+	z-index: -3;
 }
         /*listStart*/
 .list{
@@ -223,6 +319,10 @@
 	 background: #0082c3;
 	 margin-top: -76px;
 	 margin-left: 550px;
+ }
+ .exercise:hover{
+	 transition-duration:0.4s;
+	 background: #0075af;
  }
 /* titleStart */
 header{
@@ -552,9 +652,81 @@ nav{
 		width: 1180px;
 		height: 75px;
 		margin: 0  auto;
-		background: cadetblue;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
 		.nav_one{
-			background: url;
+			width:120px;
+			height:26px;
+			text-align:center;
+			padding-top:10px;
+			margin-top:20px;
+		.iconfont{
+			width: 35px;
+			height: 37px;
+			color: #fff;
+			display: inline;
+	}
+	span{
+		font-size: 13px;
+		color: #fff;
+		font-weight: 700;
+	}
+	}
+}
+}
+/* footerStart */
+footer{
+	width: 100%;
+	height: 220px;
+	background: #edeff1;
+	padding-top:40px;
+	ul{
+		width: 1016px;
+		height: 218px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		border-bottom:1px solid #e7e6e6;
+		li{
+			width: 72px;
+			p{
+				font-size: 13px;
+				color: #0082c3;
+				font-weight: 700;
+				margin-bottom: 8px;
+			}
+			b{
+				display: block;
+				font-size: 10px;
+				color: #575859;
+			}
+		}
+		img{
+			height: 94px;
+		}
+	}
+}
+/* end */
+.end{
+	width:100%;
+	height: 82px;
+	
+	background: #edeff1;
+	.end_cen{
+		float: right;
+		width: 378px;	
+		p{
+			font-size:12px;	
+			span{
+				font-size: 10px;
+				color: #575859;
+			}
+		}
+		img{
+			height: 42px;
+			float: right;
 		}
 	}
 }
