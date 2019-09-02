@@ -6,4 +6,5 @@
 			topone.css({"transform":"rotate(-60deg)"})
 		let toptwo = $('.top_two')
 			toptwo.css({'display':'none'})
-	}) */
+	})
+ */
