@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: "iconfont";
   src: url("iconfont.eot?t=1567214585424");
@@ -39,6 +40,105 @@
 }
 
 @charset "UTF-8";
+=======
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.bg {
+  width: 100%;
+  background: #fff;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -343;
+}
+
+.header {
+  width: 350px;
+  height: 192px;
+  background: #fff;
+  margin-top: 112px;
+  margin-left: 592px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.header h3 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 30px;
+}
+
+.header p {
+  font-size: 12px;
+  margin: 12px  0  12px  30px;
+}
+
+.header span {
+  color: red;
+  font-size: 20px;
+  width: 45px;
+  height: 25px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  border-right: 1px solid #d4d7d9;
+  top: 120px;
+  left: 30px;
+}
+
+.header #input {
+  width: 226px;
+  height: 40px;
+  border: 1px solid #d4d7d9;
+  padding-left: 62px;
+  color: #d4d7d9;
+  margin-left: 30px;
+}
+
+.header #a {
+  width: 290px;
+  height: 40px;
+  display: block;
+  background: #0082c3;
+  margin-left: 30px;
+  margin-top: 16px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 13px;
+}
+
+#i {
+  color: lawngreen;
+  font-weight: bold;
+  position: absolute;
+  top: 120px;
+  right: 45px;
+  display: none;
+}
+
+.defeated {
+  width: 282px;
+  height: 28px;
+  background: #e20c18;
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  padding-left: 8px;
+  position: absolute;
+  left: 30px;
+  top: 160px;
+  display: none;
+}
+
+>>>>>>> new5
 .top {
   background: #fff;
   height: 54px;
@@ -185,8 +285,18 @@
   background: #edeff1;
 }
 
+<<<<<<< HEAD
 .top .top_right {
   float: right;
+=======
+.top .top_right1 {
+  margin-right: 76px;
+}
+
+.top .top_right {
+  float: right;
+  margin-left: 10px;
+>>>>>>> new5
   position: relative;
 }
 
@@ -298,7 +408,11 @@
 .top .top_right li:nth-child(1):hover p {
   position: absolute;
   top: 65px;
+<<<<<<< HEAD
   right: -220px;
+=======
+  right: -200px;
+>>>>>>> new5
   transition-duration: 0.4s;
   display: block;
 }
@@ -311,7 +425,19 @@
   display: block;
 }
 
+<<<<<<< HEAD
 .top .top_right #top_right {
+=======
+.top #top_right2 {
+  width: 88px;
+  height: 54px;
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+}
+
+.top #top_right {
+>>>>>>> new5
   width: 84px;
   height: 54px;
   border-left: 1px solid #edeff1;
@@ -321,9 +447,16 @@
   text-align: center;
   float: right;
   background: #ffea28;
+<<<<<<< HEAD
 }
 
 .top .top_right #top_right span {
+=======
+  margin-right: -10px;
+}
+
+.top #top_right span {
+>>>>>>> new5
   transform: skewX(-10deg);
   display: block;
   position: absolute;
@@ -335,7 +468,11 @@
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .top .top_right #top_right:hover {
+=======
+.top #top_right:hover {
+>>>>>>> new5
   background: #fdd935;
 }
 
@@ -347,6 +484,10 @@
   position: absolute;
   top: 54px;
   left: 0;
+<<<<<<< HEAD
+=======
+  box-shadow: 0px 5px 5px #999;
+>>>>>>> new5
   z-index: 33333;
   /* left */
   /* right */
@@ -415,11 +556,19 @@
 }
 
 .two_nav .nav_right {
+<<<<<<< HEAD
   width: 453px;
   height: 600px;
   background: #fff;
   float: right;
   margin-right: 16px;
+=======
+  width: 462px;
+  height: 600px;
+  background: #fff;
+  float: right;
+  -margin-right: 16px;
+>>>>>>> new5
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -443,6 +592,7 @@
   line-height: 30px;
 }
 
+<<<<<<< HEAD
 /*bannerStart*/
 .banner {
   width: 100%;
@@ -1023,6 +1173,8 @@ footer ul img {
   float: right;
 }
 
+=======
+>>>>>>> new5
 @charset "UTF-8";
 /*
 *{margin:0;padding:0;}
