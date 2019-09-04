@@ -20,10 +20,10 @@ window.onload = function(){
             //图片统一高度：
             var images_height = '590px';
             var images_url = [
-                './img/1.jpg',
-                './img/2.jpg',
-                './img/3.jpg',
-                './img/1.jpg',
+                '../dist/img/1.jpg',
+                '../dist/img/2.jpg',
+                '../dist/img/3.jpg',
+                '../dist/img/1.jpg',
             ];
             var images_count = images_url.length;
             //console.log(images_count);
