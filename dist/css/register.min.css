@@ -1,0 +1,385 @@
+body {
+  background: #edeff1;
+}
+
+.fanhui {
+  width: 100px;
+  height: 30px;
+  display: block;
+  background: #d4d7d9;
+  color: #323233;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 308px;
+  font-weight: 700;
+}
+
+.center {
+  position: relative;
+  padding-left: 50px;
+  padding-top: 54px;
+  width: 870px;
+  height: 946px;
+  background: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.center h1 {
+  font-size: 36px;
+  color: #0082c3;
+  font-weight: bold;
+  transform: skewX(-20deg);
+}
+
+.center b {
+  font-size: 11px;
+  margin-top: -4px;
+}
+
+.center h2 {
+  font-size: 18px;
+  color: #0082c3;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.center i {
+  font-size: 12px;
+  color: #7d7e80;
+}
+
+.center span {
+  color: red;
+  font-size: 20px;
+  width: 45px;
+  height: 25px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  border-right: 1px solid #d4d7d9;
+  top: 235px;
+  left: 52px;
+  z-index: 1;
+}
+
+.center #input {
+  width: 226px;
+  height: 40px;
+  border: 1px solid #d4d7d9;
+  padding-left: 62px;
+  color: #d4d7d9;
+  position: absolute;
+  top: 226px;
+  left: 50px;
+}
+
+.center u {
+  font-size: 12px;
+  color: #7d7e80;
+  position: absolute;
+  top: 280px;
+}
+
+.center #yan {
+  width: 226px;
+  height: 40px;
+  border: 1px solid #d4d7d9;
+  margin-top: 102px;
+}
+
+.center #zheng {
+  font-size: 12px;
+  color: #0082c3;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.center h3 {
+  position: absolute;
+  top: 400px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0082c3;
+  transform: skewX(-20deg);
+}
+
+.center article {
+  margin-top: 70px;
+  color: #7d7e80;
+  font-size: 12px;
+}
+
+.center .man {
+  font-size: 12px;
+  color: #323233;
+  position: absolute;
+  top: 470px;
+}
+
+.center #man {
+  margin-right: 7px;
+}
+
+.woman {
+  font-size: 12px;
+  color: #323233;
+  position: absolute;
+  top: 470px;
+  left: 90px;
+}
+
+.woman #woman {
+  margin-right: 7px;
+}
+
+section {
+  color: #7d7e80;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 52px;
+  float: left;
+}
+
+aside {
+  display: inline;
+  color: #7d7e80;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 260px;
+  float: left;
+  margin-top: 52px;
+}
+
+#surname {
+  width: 226px;
+  height: 40px;
+  border: 1px solid #d4d7d9;
+  margin-top: 77px;
+  margin-left: -298px;
+}
+
+#iname {
+  width: 226px;
+  height: 40px;
+  border: 1px solid #d4d7d9;
+  margin-left: 52px;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0082c3;
+  transform: skewX(-20deg);
+  margin-top: 50px;
+}
+
+#password {
+  color: #7d7e80;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+#pass {
+  width: 226px;
+  height: 40px;
+  border: 1px solid #d4d7d9;
+}
+
+#val {
+  width: 152px;
+  height: 80px;
+  border-left: 1px solid #cacbcc;
+  margin-left: 256px;
+  margin-top: -58px;
+}
+
+#val li {
+  font-size: 14px;
+  margin: 2px;
+  margin-left: 38px;
+}
+
+#val li:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.center hgroup {
+  position: absolute;
+  top: 672px;
+  left: 564px;
+  width: 145px;
+  height: 48px;
+  border: 1px solid #0082c3;
+  color: #0082c3;
+  text-align: center;
+  font-size: 12px;
+}
+
+.center hgroup h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 4px 0;
+}
+
+#check {
+  font-size: 12px;
+}
+
+#check #checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+}
+
+h6 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0082c3;
+  transform: skewX(-20deg);
+  margin-top: 54px;
+}
+
+nav {
+  font-size: 12px;
+  color: #7d7e80;
+  margin: 15px 0;
+}
+
+.yes {
+  font-size: 12px;
+  color: #323233;
+}
+
+#yes {
+  margin-right: 7px;
+}
+
+.no {
+  font-size: 12px;
+  color: #323233;
+}
+
+.no #no {
+  margin-right: 7px;
+}
+
+.fanhui2 {
+  width: 100px;
+  height: 30px;
+  display: block;
+  background: #d4d7d9;
+  color: #323233;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 308px;
+  font-weight: 700;
+}
+
+figure {
+  width: 215px;
+  height: 75px;
+  float: right;
+  margin-right: 260px;
+  margin-top: -75px;
+}
+
+figure #setup {
+  display: block;
+  width: 156px;
+  height: 40px;
+  background: #0082c3;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+figure #know {
+  font-size: 14px;
+}
+
+figure #know span {
+  font-size: 12px;
+  color: #0082c3;
+}
+
+footer {
+  width: 827px;
+  height: 52px;
+  font-size: 11px;
+  margin-left: 340px;
+  margin-top: 60px;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.scroll {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  display: block;
+  border-style: solid;
+  border-width: 0 0 64px 64px;
+  border-color: transparent transparent #0082c3;
+}
+
+.scroll span {
+  position: absolute;
+  top: 34px;
+  left: -22px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.defeated {
+  width: 282px;
+  height: 28px;
+  background: #e20c18;
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  padding-left: 8px;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+  display: none;
+  z-index: 1;
+}
+
+.defeated2 {
+  width: 220px;
+  height: 28px;
+  background: #e20c18;
+  color: #fff;
+  font-size: 12px;
+  line-height: 28px;
+  padding-left: 8px;
+  position: absolute;
+  left: 50px;
+  top: 718px;
+  display: none;
+  z-index: 1;
+}
