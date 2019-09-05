@@ -71,10 +71,13 @@ $(function(){
 		var str2 = pass.val();
 		var surname = $('#surname').val();
 		var iname = $('#iname').val();
+		/* if(yan && str2 && surname && inme && pass){
+			alert('确认信息是否填写完成');
+			return;} */
 		//获取cookie
 		var cookieStr = $.cookie('wate') ? $.cookie('wate') : '';
 		var cookieObj = converCookieStrToCookieObj(cookieStr);
-		console.log(cookieStr)
+		console.log(str)
 		 if(str in cookieObj){
 			alert('手机号已被注册')
 		}else{

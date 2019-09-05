@@ -1,0 +1,172 @@
+nav{
+	width: 1519px;
+	height: 720px;
+	background:  #f8f9f9;
+	overflow:hidden;
+	.pic_left{
+		width: 990px;
+		height: 720px;
+		transform: skewX(10deg);
+		background: #fff;
+		margin-left: -64px;
+		float: left;
+	}
+	.pic_right{
+		width: 528px;
+		height: 720px;
+		transform: skewX(10deg);
+		background: #f8f9f9;
+		float: right;
+	}
+}
+
+.pic_left .picture{
+		width: 500px;
+		height: 500px;
+		margin-left:310px;
+		margin-top:100px;
+		position:relative	
+	}
+.pic_left .picture img{
+			width: 500px;
+			height: 500px;
+			transform: skewX(-10deg);
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+.small_pic{
+	width: 86px;
+	height: 180px;
+	box-shadow: 0px 5px 5px #999;
+	transform: skewX(-10deg);
+	position: absolute;
+	top: 240px;
+	left: 128px;
+}
+.small_ul li img{
+	width: 56px;
+	height: 56px;
+	margin-left: 15px;
+}
+.iconfont{
+	font-size: 28px;
+}
+.icon-shang{
+	width: 30px;
+	height: 30px;
+	font-size: 28px;
+	transform: skewX(-10deg);
+	position: absolute;
+	top: 204px;
+	left: 180px;
+	color: #80c0e1;
+}
+.icon-xia{
+	transform: skewX(-10deg);
+	position: absolute;
+	top: 438px;
+	left: 134px;
+	color: #80c0e1;
+	}
+.iconfont:hover{
+	color: #0082c3;
+}
+aside{
+	width: 370px;
+	height: 620px;
+	transform: skewX(-10deg);
+	margin-top: 28px;
+	margin-left: 70px;
+	h1{
+		font-size: 15px;
+		color: #323233;
+		font-weight: bold;
+	}
+	b{
+		width: 90px;
+		height: 33px;
+		background: #ffea28;
+		font-size: 17px;
+		font-weight: bold;
+		line-height: 33px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	img{
+		height: 15px;
+	}
+	.icon-left{
+		position: absolute;
+		top:60px;
+		left: 54px;
+		transform: skewX(10deg);
+		color: #7d7e80;
+	}
+	i{
+		font-size: 11px;
+		color: #7d7e80;
+		text-decoration: underline;
+		margin-left: 20px;
+	}
+	em{
+		font-size: 12px;
+		color: #323233;
+	}
+	article{
+		font-size: 12px;
+		color: #323233;
+		margin-top: 30px;
+		margin-bottom: 12px;
+		font-weight: bold;
+	}
+	.block{
+		width: 100px;
+		height: 45px;
+		img{
+			width: 43px;
+			height: 42px;
+			border: 1px solide #404040;
+		}
+	}
+	section{
+		font-size: 12px;
+		color: #323233;
+		margin-top: 20px;
+	}
+	select{
+		width: 370px;
+		height: 35px;
+	}
+	#shopp{
+		display: block;
+		width: 370px;
+		height: 40px;
+		background: #ffea28;
+		font-size: 13px;
+		text-align: center;
+		line-height: 40px;
+		font-weight: 700;
+		margin-top: 50px;
+	}
+	h2 {
+		font-size: 14px;
+		color: #393939 ;
+		margin: 6px 0;
+	}
+	h3{
+		font-size: 14px;
+		color: #393939 ;
+		
+	}
+	h4{
+		font-size: 14px;
+		color: #393939 ;
+		margin: 6px 0;
+	}
+	h5{
+		margin-top: 6px;
+		font-size: 14px;
+		color: #c8c8c8;
+	}
+}
