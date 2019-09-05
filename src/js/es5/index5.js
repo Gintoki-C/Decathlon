@@ -2,18 +2,6 @@ window.onload = function(){
 	//二级导航点击弹出
 	$('.classify').click(function(){
 		 $('.two_nav').slideToggle(400);
-		/* $('.top_one').css({
-			"transform":"rotate(-40deg)",
-			"height":"3px",
-			"top":"26px"
-			}); 
-		$('.top_two').css({"display":"none"})
-		$('.top_three').css({
-			"transform":"rotate(40deg)",
-			"top":"25px",
-			"width":"22px",
-			"left":"25px"
-			})  */
 })
 				//轮播图
 				
@@ -168,7 +156,12 @@ window.onload = function(){
 		
 		})
 	}) 
-	
+//点击进入列表页
+	$('.nav_right li').each(function(){
+		$(this).click(function(){
+			location.href = 'list.html'
+		})	
+	})
 
 
 
